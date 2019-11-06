@@ -1,0 +1,79 @@
+.titleH1 
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(250, 239, 249);
+    box-shadow: 2px 2px 1px 2px rgba(0, 0, 0, 0.8) ;
+}
+h3
+{
+  text-decoration:underline
+}
+img 
+{
+    height: 200px;
+    width : 200px;
+}
+.bordureStyle
+{
+  height: 75px;
+  width : 75px;
+}
+.bodyFond
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: smaller;
+}
+.espace
+{
+  padding-top: 15px;
+}
+li
+{
+  padding-top: 15px;
+}
+.zoom 
+{
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover 
+{
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.grid-container 
+{
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  padding: 10px;
+
+}
+.grid-item
+{
+  background-color:rgb(250, 239, 249);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 1px;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 1px 2px rgba(0, 0, 0, 0.8) ;
+}
+.grid-itemTitreH1
+{
+  padding: 5px;
+  margin: 1px;
+  font-size: 30px;
+  text-align: center;
+  
+}
+.grid-containerTitreH1
+{
+  display: grid;
+  grid-template-columns: 25% 50% 25% ;
+  padding: 10px;
+
+}
